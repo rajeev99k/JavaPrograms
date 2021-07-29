@@ -282,7 +282,7 @@ public class bambooRose
 		//bambooRose.fileread();
 		
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd-HH.mm.ss").format(new Date());
-		System.out.println(timeStamp);
+		
 		
 		
 		
