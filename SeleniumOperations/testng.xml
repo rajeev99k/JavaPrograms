@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-Suite" >
+
+<listeners>
+	<listener class-name="Utilities.listenerClass"/>
+</listeners>
+   <test name="TestNG" >
+   
+   <parameter name="url" value = "https://login.yahoo.com/"/>
+ <!--    <groups>
+   <run>
+   <include name = "Finsys"></include>
+   </run>
+   </groups> -->
+       <classes> 
+          <class name="testNG.GoogleTest" /> 
+       </classes>
+   </test>
+ </suite>
