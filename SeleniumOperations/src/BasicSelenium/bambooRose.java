@@ -241,6 +241,18 @@ public class bambooRose
 		}
 	}
 	
+	
+	public static void stringreverse_second(String sample)
+	{
+		String reverse = "";
+		for(int i=sample.length()-1;i>=0;i--) 
+		{
+			reverse = reverse+sample.charAt(i);
+		}
+		
+		System.out.println("Reversed String: "+reverse);
+	}
+	
 	public static void main(String[] args) throws IOException
 	{
 		/*bambooRose.filereader();
@@ -281,10 +293,12 @@ public class bambooRose
 		
 		//bambooRose.fileread();
 		
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd-HH.mm.ss").format(new Date());
-		System.out.println("Time :"+timeStamp);
+		/*
+		 * String timeStamp = new SimpleDateFormat("yyyy.MM.dd-HH.mm.ss").format(new
+		 * Date()); System.out.println("Time :"+timeStamp);
+		 */
 		
-		
+		bambooRose.stringreverse_second("Bamboorose");
 		
 		
 	}
